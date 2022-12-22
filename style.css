@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  border: 0;
+}
+
+input,
+button {
+  font-size: 16px;
+}
+
+.head_bar {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9f66d8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+
+  border-radius: 10px;
+  background-color: #cab0ff;
+}
+
+.input_section > h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+  border: 0;
+}
+
+.input_section > form > button {
+  background-color: #9f66d8;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search_section {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #cab0ff;
+}
+.search_section > h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search_section > form {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search_section > form > label {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search_section > form > input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.search_section > form > button {
+  background-color: #9f66d8;
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.book_shelf {
+  margin: 16px 0 0 0;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #cab0ff;
+}
+
+.book_shelf > h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  background-color: #9160f3;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .done {
+  background-color: #000000;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .delete {
+  background-color: #d40e0e;
+  color: white;
+}
